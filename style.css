@@ -97,10 +97,58 @@ body {
   color: var(--Grey-900);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .card {
     width: 20%;
     height: 50%;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    width: 30%;
+    height: 70%;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    width: 40%;
+    height: 70%;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .card {
+    width: 60%;
+    height: 80%;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    width: 90%;
+    height: 80%;
     gap: 0;
     display: flex;
     flex-direction: column;
