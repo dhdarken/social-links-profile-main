@@ -97,9 +97,9 @@ body {
   color: var(--Grey-900);
 }
 
-@media screen and (max-width: 1440px) {
+/*@media screen and (max-width: 1440px) {
   .card {
     width: 20%;
     height: 70%;
   }
-}
+}*/
